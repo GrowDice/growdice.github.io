@@ -4,7 +4,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Franklin Gothic Medium', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 body{
@@ -133,10 +133,24 @@ body::-webkit-scrollbar{
 .firstDownLeft{
     color: #fff;
     width: 30vw;
-    line-height: 200%;
+    line-height: 180%;
     text-shadow: 2px 2px 0px black;
-    font-size: large;
+    font-size: 1.2rem;
+    /* letter-spacing: 1.2px; */
+    /* font-weight: 100; */
     /* background-color: red; */
+}
+
+.firstDownLeft p{
+    font-family: 'Poppins', sans-serif;
+}
+
+.firstDownLeft h2{
+    font-family: 'Poppins', sans-serif;
+}
+
+.firstDownLeft h3{
+    font-family: 'Poppins', sans-serif;
 }
 
 .firstDownRight{
@@ -281,6 +295,7 @@ bold2{
     /* background-color: blue; */
     height: 27vh;
     color: #fff;
+    font-family: 'Poppins', sans-serif;
 }
 
 footer{
