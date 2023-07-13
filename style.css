@@ -186,6 +186,7 @@ bold2{
     text-shadow: none;
     /* font-family: 'Montserrat', sans-serif; */
     font-size: xx-large;
+    box-shadow: 4px 6px 2px 0px #000;
 }
 
 #clickForProof{
@@ -296,6 +297,18 @@ bold2{
     height: 27vh;
     color: #fff;
     font-family: 'Poppins', sans-serif;
+}
+
+.buttonHolder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #4483EB;
+}
+
+.buttonHolder img{
+    width: 2vw;
 }
 
 footer{
